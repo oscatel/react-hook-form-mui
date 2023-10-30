@@ -1,4 +1,7 @@
-import {Alert, Button, Stack} from '@mui/material'
+import Alert from '@mui/material/Alert'
+import Button from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
+
 import {FormContainer, TextFieldElement, useWatch} from 'react-hook-form-mui'
 
 const SubComponent = () => {

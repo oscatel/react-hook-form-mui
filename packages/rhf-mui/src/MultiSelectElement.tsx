@@ -1,17 +1,14 @@
 import CloseIcon from '@mui/icons-material/Cancel'
 import {Control, Controller, FieldError, Path} from 'react-hook-form'
-import {
-  Checkbox,
-  Chip,
-  FormControl,
-  FormControlProps,
-  FormHelperText,
-  InputLabel,
-  ListItemText,
-  MenuItem,
-  Select,
-  SelectProps,
-} from '@mui/material'
+import Checkbox from '@mui/material/Checkbox'
+import Chip from '@mui/material/Chip'
+import FormControl, {FormControlProps} from '@mui/material/FormControl'
+import FormHelperText from '@mui/material/FormHelperText'
+import InputLabel from '@mui/material/InputLabel'
+import ListItemText from '@mui/material/ListItemText'
+import MenuItem from '@mui/material/MenuItem'
+import Select, {SelectProps} from '@mui/material/Select'
+
 import {FieldValues} from 'react-hook-form/dist/types/fields'
 import {useFormError} from './FormErrorProvider'
 import {ReactNode} from 'react'

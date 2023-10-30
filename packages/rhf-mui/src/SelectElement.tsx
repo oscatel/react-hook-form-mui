@@ -1,5 +1,7 @@
 import {ReactNode, createElement} from 'react'
-import {MenuItem, TextField, TextFieldProps} from '@mui/material'
+import MenuItem from '@mui/material/MenuItem'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+
 import {
   Control,
   Controller,

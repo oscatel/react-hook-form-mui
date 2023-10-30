@@ -5,15 +5,14 @@ import {
   FieldError,
   Path,
 } from 'react-hook-form'
-import {
-  Checkbox,
-  CheckboxProps,
-  FormControl,
-  FormControlLabel,
+import Checkbox, {CheckboxProps} from '@mui/material/Checkbox'
+import FormControl from '@mui/material/FormControl'
+import FormControlLabel, {
   FormControlLabelProps,
-  FormGroup,
-  FormHelperText,
-} from '@mui/material'
+} from '@mui/material/FormControlLabel'
+import FormGroup from '@mui/material/FormGroup'
+import FormHelperText from '@mui/material/FormHelperText'
+
 import {FieldValues} from 'react-hook-form/dist/types/fields'
 import {useFormError} from './FormErrorProvider'
 import {ReactNode} from 'react'

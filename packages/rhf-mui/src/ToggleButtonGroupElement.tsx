@@ -6,16 +6,14 @@ import {
   Path,
 } from 'react-hook-form'
 import {FieldValues} from 'react-hook-form/dist/types/fields'
-import {
-  FormControl,
-  FormHelperText,
-  FormLabel,
-  FormLabelProps,
-  ToggleButton,
-  ToggleButtonGroup,
+import FormControl from '@mui/material/FormControl'
+import FormHelperText from '@mui/material/FormHelperText'
+import FormLabel, {FormLabelProps} from '@mui/material/FormLabel'
+import ToggleButton, {ToggleButtonProps} from '@mui/material/ToggleButton'
+import ToggleButtonGroup, {
   ToggleButtonGroupProps,
-  ToggleButtonProps,
-} from '@mui/material'
+} from '@mui/material/ToggleButtonGroup'
+
 import {ReactNode} from 'react'
 import {useFormError} from './FormErrorProvider'
 

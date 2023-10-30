@@ -1,10 +1,9 @@
 import {Control, Controller, Path} from 'react-hook-form'
-import {
-  FormControlLabel,
+import FormControlLabel, {
   FormControlLabelProps,
-  Switch,
-  SwitchProps,
-} from '@mui/material'
+} from '@mui/material/FormControlLabel'
+import Switch, {SwitchProps} from '@mui/material/Switch'
+
 import {FieldValues} from 'react-hook-form/dist/types/fields'
 
 type IProps = Omit<FormControlLabelProps, 'control'>

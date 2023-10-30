@@ -24,5 +24,17 @@ module.exports = {
     semi: ['error', 'never'],
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-explicit-any': 0,
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: '@mui/material',
+            message:
+              'Please import components directly from @mui/material/[ComponentName] instead of @mui/material root.',
+          },
+        ],
+      },
+    ],
   },
 }

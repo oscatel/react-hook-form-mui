@@ -1,5 +1,9 @@
 import {FunctionComponent, PropsWithChildren} from 'react'
-import {AppBar, Box, Button, Toolbar} from '@mui/material'
+import AppBar from '@mui/material/AppBar'
+import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
+import Toolbar from '@mui/material/Toolbar'
+
 import Link from 'next/link'
 
 export const Layout: FunctionComponent<PropsWithChildren> = ({children}) => {

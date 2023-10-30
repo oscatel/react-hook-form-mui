@@ -13,7 +13,8 @@ import {
   TextFieldElement,
 } from 'react-hook-form-mui/src'
 import {useForm, useWatch} from 'react-hook-form'
-import {Button} from '@mui/material'
+import Button from '@mui/material/Button'
+
 import {action} from '@storybook/addon-actions'
 import DateFnsProvider from 'react-hook-form-mui/src/DateFnsProvider'
 

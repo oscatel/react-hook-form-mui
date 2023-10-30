@@ -10,7 +10,8 @@ import {
   FieldError,
   Path,
 } from 'react-hook-form'
-import {TextFieldProps} from '@mui/material'
+import {TextFieldProps} from '@mui/material/TextField'
+
 import {FieldValues} from 'react-hook-form/dist/types/fields'
 import {useFormError} from './FormErrorProvider'
 import {ReactNode} from 'react'

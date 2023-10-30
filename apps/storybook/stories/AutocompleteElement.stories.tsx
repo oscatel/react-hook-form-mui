@@ -2,7 +2,10 @@ import {AutocompleteElement, FormContainer} from 'react-hook-form-mui/src'
 import React from 'react'
 import {Meta, StoryObj} from '@storybook/react'
 import {action} from '@storybook/addon-actions'
-import {Box, Button, Tooltip} from '@mui/material'
+import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
+import Tooltip from '@mui/material/Tooltip'
+
 import LocationIcon from '@mui/icons-material/LocationOn'
 
 const meta = {

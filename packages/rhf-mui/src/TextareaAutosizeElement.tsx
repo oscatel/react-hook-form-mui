@@ -1,4 +1,6 @@
-import {TextareaAutosize, TextField, TextFieldProps} from '@mui/material'
+import TextareaAutosize from '@mui/material/TextareaAutosize'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+
 import {
   Control,
   Controller,

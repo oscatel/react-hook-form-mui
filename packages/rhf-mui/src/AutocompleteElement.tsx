@@ -5,13 +5,11 @@ import {
   FieldError,
   Path,
 } from 'react-hook-form'
-import {
-  Autocomplete,
-  AutocompleteProps,
-  Checkbox,
-  TextField,
-  TextFieldProps,
-} from '@mui/material'
+
+import Autocomplete, {AutocompleteProps} from '@mui/material/Autocomplete'
+import Checkbox from '@mui/material/Checkbox'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+
 import CircularProgress from '@mui/material/CircularProgress'
 import {FieldValues} from 'react-hook-form/dist/types/fields'
 import {useFormError} from './FormErrorProvider'

@@ -1,4 +1,5 @@
-import {TextField, TextFieldProps} from '@mui/material'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+
 import {
   Control,
   Controller,

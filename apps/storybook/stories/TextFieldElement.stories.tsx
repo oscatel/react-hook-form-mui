@@ -1,5 +1,7 @@
 import {action} from '@storybook/addon-actions'
-import {InputAdornment, Stack} from '@mui/material'
+import InputAdornment from '@mui/material/InputAdornment'
+import Stack from '@mui/material/Stack'
+
 import {FieldError} from 'react-hook-form'
 import {
   CheckboxElement,
